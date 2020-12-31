@@ -148,6 +148,42 @@ body{
 .statistics-item_descr{
     color: #B70021;
 }
-.images{
+.video{
     margin-bottom: 100px;
+}
+
+.advantages-row{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.advantages_title{
+    line-height: 42px;
+    color: #B70021;
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+}
+
+.advantages_title-bottom{
+    right: 0;
+    bottom: 0;
+    top: auto;
+
+}
+
+.advantages_text{
+    width: 303px;
+}
+
+.advantages_text ul{
+    list-style: none;
+}
+
+.advantages-descr{
+    max-width: 570px;
+    width: 100%;
 }
